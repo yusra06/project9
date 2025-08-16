@@ -1,0 +1,16 @@
+#home{
+    background-image: url('images/hero.png');
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    height: 60px;
+}
+#About h1 {
+    font-size: 40px;  
+    font-weight: 500;   
+}
+.head {
+    font-size: 30px;
+    font-weight: 700;
+}
