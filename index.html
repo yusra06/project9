@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account</title>
+    <!-- bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <!-- Icon CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Testimonial CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -35,8 +37,8 @@
                     <li class="nav-item"><a class="nav-link px-3" href="#home">HOME</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="#About">ABOUT</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="#service">SERVICE</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">TESTIMONIALS</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#testimonial-section">TESTIMONIALS</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#contact-section">CONTACT</a></li>
 
 
                 </ul>
@@ -53,13 +55,13 @@
 
         </div>
         <div class="text-center">
-            <img src="images/banner.png" alt="banner"/>
+            <img src="images/banner.png" alt="banner" class="banner-img"/>
         </div>
     </section>
     <section id="About">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 ps-5">
+                <div class="col-lg-6 ps-5 mb-5">
                     <h1 class="py-5"> We Are Helping To Grow Your<br> Bussiness</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.kjgyubygubkj jshuiadh<br> usgdiuashdu
                         sugdiuas</p>
@@ -81,11 +83,11 @@
         </div>
     </section>
 
-    <section id="service" class="bg-body-tertiary" >
+    <section id="service" class="bg-body-tertiary pt-5" >
         <div class="container py-5">
             <div class="row justify-content-center">
-                <div class="col-lg-4">
-                    <div class="border border-light shadow ps-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="border border-primary rounded shadow ps-3">
                         <div class="text-center py-3">
                         <img src="images/pencil.png"/>
                     </div>
@@ -93,8 +95,8 @@
                         <p>Diversify wealth via an asset class fundamentally different from conventional real estate and precious metals.</p>
                     </div>
                 </div>
-                    <div class="col-lg-4">
-                    <div class="border border-light shadow ps-3">
+                    <div class="col-lg-4 mb-4">
+                    <div class="border border-primary rounded shadow ps-3">
                         <div class="text-center py-3">
                         <img src="images/portfolio.png"/>
                     </div>
@@ -102,8 +104,8 @@
                         <p>Diversify wealth via an asset class fundamentally different from conventional real estate and precious metals.</p>
                     </div>
                     </div> 
-                <div class="col-lg-4">
-                    <div class="border border-light shadow ps-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="border border-primary rounded shadow ps-3">
                         <div class="text-center py-3">
                         <img src="images/setting.png"/>
                         </div>
@@ -111,8 +113,8 @@
                         <p>Diversify wealth via an asset class fundamentally different from conventional real estate and precious metals.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="border border-light shadow ps-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="border border-primary rounded shadow ps-3">
                         <div class="text-center py-3">
                         <img src="images/smartphone-call.png"/>
                     </div>
@@ -120,8 +122,8 @@
                         <p>Diversify wealth via an asset class fundamentally different from conventional real estate and precious metals.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="border border-light shadow ps-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="border border-primary rounded shadow ps-3">
                         <div class="text-center py-3">
                         <img src="images/coin-stack.png"/>
                     </div>
@@ -129,8 +131,8 @@
                         <p>Diversify wealth via an asset class fundamentally different from conventional real estate and precious metals.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="border border-light shadow ps-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="border border-primary rounded shadow ps-3">
                         <div class="text-center py-3">
                         <img src="images/rocket.png"/>
                     </div>
@@ -141,6 +143,153 @@
             </div>
         </div>
     </section>
+
+    <section id="testimonial-section" class="py-5">
+        <div class="container">
+            <h1 class="text-center pb-5">TESTIMONIALS</h1>
+            <div class="row justify-content-center align-senter">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonial-bg position-relative text-center border-black">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial py-0 px-2">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at augue sed elit eleifend tempus. Etiam malesuada vulputate justo quis bibendum. Nam maximus ultricies rhoncus. Ut non felis vel enim dapibus.
+                                </p>
+                                <div class="pic">
+                                    <img src="images/img-1.jpg" alt="">
+                                </div>
+                                <h3 class="title">Williamson,</h3>
+                                <span class="post">Web Developer</span>
+                            </div>
+        
+                            <div class="testimonial">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at augue sed elit eleifend tempus. Etiam malesuada vulputate justo quis bibendum. Nam maximus ultricies rhoncus. Ut non felis vel enim dapibus.
+                                </p>
+                                <div class="pic">
+                                    <img src="images/img-2.jpg" alt="">
+                                </div>
+                                <h3 class="title">kristiana,</h3>
+                                <span class="post">Web Designer</span>
+                            </div>
+
+                            <div class="testimonial">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at augue sed elit eleifend tempus. Etiam malesuada vulputate justo quis bibendum. Nam maximus ultricies rhoncus. Ut non felis vel enim dapibus.
+                                </p>
+                                <div class="pic">
+                                    <img src="images/img-4.jpg" alt="">
+                                </div>
+                                <h3 class="title">Miranda Joy,</h3>
+                                <span class="post">Web Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-section" class="bg-body-tertiary pt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>GET IN <span class="text-primary">TOUCH</span></h1>
+                    <p class="text-secondary">We create projects for companies and startups with passion for quality.</p>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" placeholder="Your Email Address">
+                    </div>
+                    <div class="mb-3">
+                      <input type="number" class="form-control" placeholder="Your Mobile Number">
+                    </div>
+                    <select class=" mb-3 form-select" aria-label="Default select example">
+                        <option selected>Your City</option>
+                        <option value="1">Mumbai</option>
+                        <option value="2">Delhi</option>
+                        <option value="3">Banglore</option>
+                    </select>
+                    <div class="mb-3">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-secondary mb-1">Verify you're a human-Please enter the following code in the box-7102</p>
+                      <input type="text" class="form-control">
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">Send Message</button>
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="text-center mb-5">OUR ADDRESS</h3>
+                    <p class="text-center"><i class="fa fa-building text-primary" style="font-size:20px"></i>&ThickSpace; 28 Green tower,New York City,USA</p>
+                    <p class="text-center"><i class="fa fa-phone-square text-primary" style="font-size:20px"></i>&ThickSpace; +84 846 250 592</p>
+                    <p class="text-center"><i class="fa fa-envelope text-primary" style="font-size:20px"></i>&ThickSpace; contact@stuck.com</p>
+                    <p class="text-center"><i class="material-icons text-primary" style="font-size:20px">place</i>&ThickSpace; Get Directions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class=" bg-dark pt-5 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <img src="images/logo.png" alt="logo" class="mb-4">
+                    <p class="mb-3">At Stack,customers come first. And their satisfaction is not just our top priority but also the driving force of us,every single day</p>
+                    <p class="fw-bold">Working Hours</p>
+                    <p class="mb-4">Mon - Sat 8:00 - 18:00(Sunday off)</p>
+                    <i class="fa fa-facebook me-3" style="font-size:24px"></i>
+                    <i class="fa fa-twitter me-3" style="font-size:24px"></i>
+                    <i class="fa fa-linkedin me-3" style="font-size:24px"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="text-center mb-5">GET IN TOUCH</h5>
+                    <p class="text-center"><i class="fa fa-building" style="font-size:20px"></i>&ThickSpace; 28 Green tower,New York City,USA</p>
+                    <p class="text-center"><i class="fa fa-phone-square" style="font-size:20px"></i>&ThickSpace; +84 846 250 592</p>
+                    <p class="text-center"><i class="fa fa-envelope" style="font-size:20px"></i>&ThickSpace; contact@stuck.com</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="mb-5 ms-4">QUICK LINKS</h5>
+                    <ul class="footer-lst p-0">
+                        <li class="mb-3"><a href="#home" class="ms-5 text-decoration-none text-light"><i class="fa fa-angle-double-right me-4"></i>Home</a></li>
+                        <li class="mb-3"><a href="#About" class="ms-5 ms-5 text-decoration-none text-light"><i class="fa fa-angle-double-right me-4"></i>Features</a></li>
+                        <li class="mb-3"><a href="#service" class="ms-5 text-decoration-none text-light"><i class="fa fa-angle-double-right me-4"></i>Service</a></li>
+                        <li class="mb-3"><a href="#testimonial-section" class="ms-5 text-decoration-none text-light"><i class="fa fa-angle-double-right me-4"></i>Testimonials</a></li>
+                        <li class="mb-3"><a href="#contact-section" class="ms-5 text-decoration-none text-light"><i class="fa fa-angle-double-right me-4"></i>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-5">NEWSTELLER</h5>
+                    <p class="mb-3">To be one of the most trusted and globally reputed financial distribution companies.</p>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" placeholder="Your Email Address">
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">Subscribe</button>
+                </div>
+                <p class="text-end end-line">This site by Yusra Shaikh & Zainab Khan</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> 
+
+    <script>
+        $(document).ready(function(){
+            $("#testimonial-slider").owlCarousel({
+                items:1,
+                itemsDesktop:[1000,1],
+                itemsDesktopSmall:[979,1],
+                itemsTablet:[768,1],
+                pagination:false,
+                navigation:true,
+                navigationText:["",""],
+                autoPlay:true
+            });
+        });
+    </script>
 
 
 </body>
