@@ -1,13 +1,17 @@
-#home{
+#home {
     background-image: url('images/hero.png');
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
 }
+
 .navbar{
     height: 60px;
 }
 #About h1 {
-    font-size: 40px;  
-    font-weight: 500;   
+    font-size: 40px;
+    font-weight: 500;
 }
 .head {
     font-size: 30px;
@@ -26,7 +30,7 @@
 }
 /* CSS for testimonials */
 
-.testimonial-bg{ 
+.testimonial-bg{
     border-style:solid ;  
     border-width: 10px;
     padding: 80px 70px;
